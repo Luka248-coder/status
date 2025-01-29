@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["La V5, la réussite !!", "La V5, la réussite !!"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["Je gère vos inscriptions !", "Je gère vos inscriptions !"];
+const statusTypes = [ 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
